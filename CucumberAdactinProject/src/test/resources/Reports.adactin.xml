@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.474897">
+<testcase classname="To validate Search functionality" name="To validate Search and Booking Hotel using valid credentials" time="77.474897">
+<system-out><![CDATA[Given User is in  Login Page................................................passed
+And User enter "ArchanaLachu" ,"9994906957".................................passed
+When User click Login.......................................................passed
+When User is in search page, User enter details for hotel search............passed
+And User click search button,User click Radio button and click continue.....passed
+Then User book the hotel by filling "archana" ,"lachu","chennai"............passed
+And User pay amount using "4756949674876456" ,"789","VISA","July","2024"....passed
+And User click booknow button and id number is generated....................passed
+]]></system-out>
+</testcase>
+</testsuite>
